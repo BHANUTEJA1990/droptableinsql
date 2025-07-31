@@ -8,7 +8,7 @@ try:
     connection = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='mysqlBhanuteja@24', # DOUBLE CHECK THIS PASSWORD AND USERNAME!
+        password='mysqlBhanuteja', # DOUBLE CHECK THIS PASSWORD AND USERNAME!
         database='bhanutejatools'
     )
     table_name = 'buyers'
